@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>tsundoku-web-app | tsundoku-web-app</title>
+        <meta name="description" content="tsundoku-web-app(仮)です。">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="app">
+            <!--メイン-->
+            <div class="container-fruid">
+                <div class="row">
+                    <div class="col-3 bg-primary d-flex justify-content-center align-items-start">
+                        <div id="profile">
+                            <img class="mt-4" src="img/youkai_kappa_girl.png" width="180">
+                            <div class="pt-3 text-white">
+                                <h3>Home</h3>
+                                <ul>
+                                    <li>Profile</li>
+                                    <li>Group</li>
+                                </ul>
+                            </div>
+                            <div class="sns-icon">
+                                <ul>
+                                    <li>
+                                        <i class="fab fa-instagram fa-lg"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-twitter fa-lg"></i>
+                                    </li>
+                                    <li>
+                                        <i class="fab fa-facebook-f fa-lg"></i>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="copyright">
+                                <small>&copy;2020 nekomachi-teck</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col pt-3">
+                        <div id="book">
+                            
+                            <div class="cp_tab">
+                                <input type="radio" name="cp_tab" id="tab1_1" aria-controls="first_tab01" checked>
+                                <label for="tab1_1"><img class="p-1 pt-1" src="img/tsundoku1.png" width="120"></label>
+                                <input type="radio" name="cp_tab" id="tab1_2" aria-controls="second_tab01">
+                                <label for="tab1_2"><img class="p-1" src="img/tsundoku2.png" width="120"></label>
+                                <input type="radio" name="cp_tab" id="tab1_3" aria-controls="third_tab01">
+                                <label for="tab1_3"><img class="p-1" src="img/tsundoku3.png" width="120"></label>
+                                <div class="cp_tabpanels">
+                                    <div id="first_tab01" class="cp_tabpanel ml-5">
+                                    <h2>First Tab</h2>
+                                    <p>Au オードリー・タン 天才IT相7つの顔 </p>
+                                    </div>
+                                    <div id="second_tab01" class="cp_tabpanel ml-5">
+                                    <h2>Second Tab</h2>
+                                    <p>ヘテロゲニア リンギスティコ ～異種族言語学入門～（３）</p>
+                                    </div>
+                                    <div id="third_tab01" class="cp_tabpanel ml-5">
+                                    <h2>Third Tab</h2>
+                                    <p>ゲームメカニクス大全 ボードゲームに学ぶ「おもしろさ」の仕掛け</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- <footer class="py-3 bg-light footer-backgroundcolor">
+                <div class="container text-center">
+                    <p>
+                        <small>Copyright &copy;2020 nekomachi-teck, All Rights Reserved.</small>
+                    </p>
+                </div>
+            </footer> -->
+        </div>
+        <script src="js/jquery-3.5.1.slim.min.js"></script>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+        <script src="js/animal.js"></script>
+    </body>
+</html>
